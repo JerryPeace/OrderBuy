@@ -6,7 +6,6 @@ import { Flex, ChakraProvider } from '@chakra-ui/react';
 import ErrorBoundary from '@@components/Error/ErrorBoundary';
 import '../styles/app.css';
 import '../styles/globals.css';
-import '../styles/icons/style.css';
 import 'tailwindcss/tailwind.css';
 import 'react-toastify/dist/ReactToastify.css';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';

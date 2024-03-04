@@ -14,7 +14,7 @@
     "db-migrate": "npx prisma migrate deploy",
     "generateSchema": "npx prisma generate",
     "START": "----------------------------START---------------------------------",
-    "start:local": "next dev -p 3001",
+    "start:local": "next dev -p 3000",
     "start:dev": "next dev",
     "start:prd": "npx prisma migrate deploy && next start",
     "DEPLOYMENT": "------------------------DEPLOYMENT--------------------------",
