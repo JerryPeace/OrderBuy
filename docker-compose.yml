@@ -1,0 +1,17 @@
+version: "3"
+services:
+  neptune-ui:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - neptune-ui
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+    restart: unless-stopped
+
+networks:
+  neptune-ui:
+    driver: bridge

@@ -1,0 +1,26 @@
+@keyframes highlightNew {
+  from { background-color: rgb(0, 0, 0); }
+  to { background-color: #131B29; }
+}
+
+@keyframes increaseSize {
+  from { background-color: rgba(0, 177, 93, 0.5); }
+  to { background-color: #131B29; }
+}
+
+@keyframes decreaseSize {
+  from { background-color: rgba(255, 91, 90, 0.5); }
+  to { background-color: #131B29; }
+}
+
+.new-quote {
+  animation: highlightNew 1.5s forwards;
+}
+
+.increase-size {
+  animation: increaseSize 2s forwards;
+}
+
+.decrease-size {
+  animation: decreaseSize 2s forwards;
+}

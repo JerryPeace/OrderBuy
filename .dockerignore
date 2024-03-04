@@ -1,0 +1,6 @@
+*/node_modules
+cdk
+node_modules
+Dockerfile
+npm-debug.log
+.next
